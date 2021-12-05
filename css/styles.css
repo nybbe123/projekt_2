@@ -1,0 +1,43 @@
+/* fonts */
+@font-face {
+    font-family: montserrat;
+    src: url(/fonts/montserrat/Montserrat-Medium.ttf);
+  }
+
+@font-face {
+font-family: montserrat-bold;
+src: url(/fonts/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: raleway;
+    src: url(/fonts/raleway/Raleway-Medium.ttf);
+}
+
+/* universal styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* general element styles */
+h1, h2, h3, h4, h5{
+    font-family: montserrat, Arial, Helvetica, sans-serif;
+}
+
+span, p {
+    font-family: raleway, Arial, Helvetica, sans-serif;
+}
+
+a, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* reusable class styles */
+.flex {display: flex;}
+.flex-wrap {flex-wrap: wrap;}
+.flex-col {flex-direction: column;}
+.justify-center {justify-content: center;}
+.justify-between {justify-content: space-between;}
+.align-center {align-items: center;}

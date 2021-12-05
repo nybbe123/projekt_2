@@ -1,0 +1,311 @@
+/* class styles */
+
+/* main-container-1 */
+.main-container-1{
+    padding-top: 5rem;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/styrstall01.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.main-content-1 {
+    padding: 0 2rem;
+    gap: .7rem;
+    color: #fafafa;
+    text-align: center;
+}
+
+.main-content-1 > h1 {
+    font-size: 3.2rem;
+}
+
+.main-content-1 > h3 {
+    font-family: raleway, Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 18rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.main-content-1 > button {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fafafa;
+    height: 4rem;
+    width: 16rem;
+    margin-top: 0.7rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #008a99;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.2);
+    transition: all .3s;
+}
+
+.main-content-1 > button:hover {
+    background-color: #006e7a;
+    cursor: pointer;
+    font-size: 1.05rem;
+}
+
+
+/* main-container-2 */
+.main-container-2 {
+    gap: 6rem;
+    padding: 5rem 2rem;
+}
+
+.main-content-2 {
+    gap: 3rem;
+}
+
+.main-content-2-box-1 {
+    font-size: 1.4rem;
+    color: #006975;
+    text-align: left;
+    max-width: 30rem;
+}
+
+.main-content-2-box-2 {
+    gap: 3rem;
+    text-align: left;
+}
+
+.main-content-2-box-2 > div {
+    gap: .5rem;
+}
+
+.main-content-2-box-2 > div > h5 {
+    font-size: 1.2rem;
+    color: #006975;
+}
+
+.main-content-2-box-2 > div > span {
+    color: #333;
+    max-width: 30rem;
+}
+
+
+/* main-container-3 */
+.main-container-3 {
+    padding: 5rem 2rem;
+    background-image: url(https://s3.eu-central-1.amazonaws.com/nb-frontend-components01/components/nb-registration/0.2.19/dist/assets/images/map_background.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.main-content-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 2rem;
+}
+
+.main-content-3 > div > img {
+    width: 300px;
+    height: 300px;
+}
+
+
+/* main-container-4 */
+.main-container-4 {
+    padding: 5rem 2rem;
+}
+
+.main-content-4 {
+    gap: 3rem;
+    text-align: center;
+}
+
+.main-content-4 > div > img {
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+.main-content-4 > div > span {
+    width: 18rem;
+}
+
+.main-container-4 > button {
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4rem;
+    height: 4rem;
+    width: 16rem;
+    border: 1px solid #333;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+
+/* main-container-5 */
+.main-container-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/img/styrstall02.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 5rem 2rem;
+    height: 50rem;
+}
+
+.main-content-5 {
+    gap: .8rem;
+}
+
+.main-content-5 > h2 {
+    font-family: montserrat;
+    color: #fafafa;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+.main-content-5 > p {
+    color: #e4e4e4;
+    font-size: 1rem;
+    text-align: center;
+    max-width: 44rem;
+}
+
+.main-content-5 > button {
+    font-size: 1rem;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 1rem;
+    height: 4rem;
+    width: 16rem;
+    border: 1px solid #333;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+.main-container-6 {
+    padding: 5rem 2rem;
+}
+
+.main-content-6 {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.4rem;
+    gap: 4rem;
+}
+
+.main-content-6 > div > h5 {
+    font-size: 1.2rem;
+    color: #006975;
+    margin-bottom: .5rem;
+}
+
+.main-content-6 > div > p {
+    color: #333;
+    max-width: 30rem;
+}
+
+/* media queries */
+@media screen and (min-width: 460px) {
+
+    .main-content-1 > h1 {
+        font-size: 4rem;
+    }
+
+    .main-content-1 > button {
+        height: 5rem;
+        width: 20rem;
+    }
+
+    .main-content-1 > h3 {
+        font-size: 1.2rem;
+        width: 20rem;
+    }
+
+    .main-content-2-box-1 > h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-container-4 > button {
+        height: 5rem;
+        width: 20rem;
+    }
+
+    .main-content-5 > button {
+        height: 5rem;
+        width: 20rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .gap {
+        padding: 8rem 2rem;
+    }
+
+    .main-container-4 > button {
+        margin-top: 6rem;
+    }
+}
+
+@media screen and (min-width: 1089px) {
+
+    .gap {
+        padding: 10rem 2rem;
+    }
+    
+    .main-content-1 > h1 {
+        font-size: 6rem;
+    }
+    
+    .main-content-1 > h3 {
+        font-size: 1.4rem;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .main-content-2-box-1 {
+        max-width: 100%;
+    }
+
+    .main-content-2-box-1 > h2 {
+        font-size: 3.4rem;
+    }
+
+    .main-content-5 > h2 {
+        font-size: 3.5rem;
+    }
+    
+    .main-content-5 > p {
+        font-size: 1.1rem;
+        line-height: 1.4rem;
+    }
+
+    .main-content-6 {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    
+    .gap {
+        padding: 12rem 2rem;
+    }
+
+    .main-content-2-box-1 {
+        font-size: 2rem;
+    }
+
+    .main-content-2-box-1 > h2 {
+        font-size: 3.35rem;
+    }
+
+    .main-container-5 {
+        height: 70rem;
+    }
+    
+}

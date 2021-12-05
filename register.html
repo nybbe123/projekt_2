@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="https://secure.nextbike.net/media/32/Gothenburg_Favicon_180x180.png" sizes="32x32">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <title>Styr & Ställ - officiellt lånecykelsystem i Göteborg & Mölndal | drivs av nextbike</title>
+</head>
+<body>
+
+    <!--header-->
+    <header>
+        <div class="header-container flex justify-between align-center">
+            <div class="header-logo flex justify-between align-center">
+                <a href="/index.html"><img src="/img/Styrstall.png" alt="logo"></a>
+            </div>
+            <ul class="header-nav-center flex justify-center align-center">
+                <li>
+                    <a href="#">Kom igång</a>
+                </li>
+                <li>
+                    <a href="#">Stationer</a>
+                </li>
+                <li>
+                    <a href="#">Priser</a>
+                </li>
+                <li>
+                    <a href="#">Om oss</a>
+                </li>
+                <li>
+                    <a href="#">Frågor</a>
+                </li>
+                <li>
+                    <a href="#">Företag</a>
+                </li>
+                <li>
+                    <a href="#">Kontakt</a>
+                </li>
+                <span class="material-icons">menu</span>
+            </ul> 
+            <div class="header-nav-right flex justify-between align-center">
+                <span class="material-icons icon-1">person_outline</span>
+                <span class="material-icons icon-2">language</span>
+                <a class="icon-3">Logga in</a>
+                <a class="register icon-4" href="/register.html">Registrera</a>
+            </div>
+        </div>
+    </header>
+
+    <!--form-->
+    <main class="flex justify-center">
+        <form class="form-container">
+            <div class="item-1">
+                <h3>Registrering</h3>
+                <p>Detta tar bara någon minut och sen är du redo att börja styra & ställa!</p>
+                <img src="https://s3.eu-central-1.amazonaws.com/nb-frontend-components01/components/nb-registration/0.2.19/dist/assets/images/icon_bike_group_nextbike.svg">
+            </div>
+            <fieldset class="item-2">
+                <input type="text" id="fname" name="firstname" placeholder="Förnamn">
+                <input type="text" id="lname" name="lastname" placeholder="Efternamn">
+                <input type="text" id="bday" name="birthday" placeholder="Födelsedatum ÅÅ-MM-DD">
+                <input type="text" id="email" name="phone" placeholder="Email">
+                <input type="text" id="pnumber" name="phone" placeholder="+46">
+                <span class="checkbox"><input type="checkbox" id="checkbox-1" name="subscribe"> Jag vill ta emot nyhetsbrev</span>
+            </fieldset>
+            <div class="item-3">
+                <button type="button">registrera</button>
+                <p>Genom att klicka på registrera godkänner du våra <span style="color: #5895f1">användarvillkor</span> och vår <span style="color: #5895f1">integritetspolicy</span></p>
+            </div>
+        </form>
+    </main>
+
+    <!--footer-->
+    <footer>
+        <div class="footerbox flex flex-col justify-center align-center">
+            <div class="smlist flex flex-wrap justify-center">
+                <img class="facebook" src="https://www.mercedes-benz.se/passengercars/content-pool/tool-pages/footer-configuration/_jcr_content/footer.noscale.sociallinkactive.0.20190306091031.svg" alt="">
+                <img class="instagram" src="https://www.mercedes-benz.se/passengercars/content-pool/tool-pages/footer-configuration/_jcr_content/footer.noscale.sociallinkactive.3.20190306091031.svg" alt="">
+                <img class="twitter" src="https://www.mercedes-benz.se/passengercars/content-pool/tool-pages/footer-configuration/_jcr_content/footer.noscale.sociallinkactive.1.20190306091030.svg" alt="">
+                <img class="youtube" src="https://www.mercedes-benz.se/passengercars/content-pool/tool-pages/footer-configuration/_jcr_content/footer.noscale.sociallinkactive.2.20181128105617.svg" alt="">
+            </div>
+            
+            <div class="footeralt flex flex-wrap flex-wrap justify-center">
+                <span>Registrering</span>
+                <span>Så här fungerar det</span>
+                <span>Stationer</span>
+                <span>Priser</span>
+                <span>FAQ</span>
+                <span>Kontakt</span>
+                <span>Nyheter</span>
+                <span>Integritetspolicy</span>
+                <span>Användarvillkor</span>
+            </div>
+        </div>
+        <div class="copy flex justify-center">
+            <p>©  Copyright 2021 nextbike GmbH</p>
+        </div>  
+    </footer>
